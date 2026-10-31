@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2e9">
+  <meta name="description" content="Explora cuatro perfumes artesanales y descubre la ciencia detrás de sus aromas, su extracción y su efecto en el olfato.">
+  <title>Esencia Viva — Aromas creados con curiosidad</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Esencia Viva, ir al inicio">
+      <span class="brand-mark" aria-hidden="true">e<span>·</span></span>
+      <span>esencia<span class="brand-light"> viva</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+      <a href="#coleccion">La colección</a>
+      <a href="#proceso">Extracción</a>
+      <a href="#ciencia">La ciencia</a>
+      <a class="nav-cta" href="#explora">Explorar aromas <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Un proyecto de aromas y ciencia</p>
+        <h1>La naturaleza<br>también <em>se siente.</em></h1>
+        <p class="hero-intro">Cuatro perfumes artesanales. Hojas, coco y cítricos transformados en una experiencia para los sentidos… y en una aventura de química.</p>
+        <a class="button button-dark" href="#coleccion">Descubre la colección <span aria-hidden="true">↓</span></a>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">✳</span><span>Hechos a mano<br><strong>curiosidad en cada gota</strong></span></div>
+      </div>
+      <div class="hero-visual">
+        <img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.05 PM.jpeg" alt="Muestras de los perfumes artesanales de hierbabuena, coco y naranja">
+        <div class="image-stamp"><span>AROMAS</span><strong>con<br>ciencia</strong><span>· 2026 ·</span></div>
+        <div class="hero-caption"><span>01 / 04</span><span>Una colección nacida del laboratorio</span></div>
+      </div>
+      <a class="scroll-hint" href="#coleccion"><span></span> Desliza para descubrir</a>
+    </section>
+
+    <section class="collection section-pad" id="coleccion">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-line"></span> Pequeña colección, grandes moléculas</p>
+          <h2>Cuatro formas<br>de <em>inspirarse.</em></h2>
+        </div>
+        <p class="section-aside">Cada fórmula explora una materia prima y un vehículo distinto. Elige un frasco para conocer su perfil y la química que lo hace especial.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filtrar perfumes">
+        <span class="filter-label">VER:</span>
+        <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos <span>04</span></button>
+        <button class="filter-button" type="button" data-filter="alcohol" aria-pressed="false">Base de alcohol <span>03</span></button>
+        <button class="filter-button" type="button" data-filter="aceite" aria-pressed="false">Base de aceite <span>01</span></button>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-base="alcohol" data-product="hierbabuena">
+          <button class="product-open" type="button" aria-label="Ver detalles del perfume de hierbabuena a base de alcohol">
+            <span class="product-image image-mint"><img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.08 PM (1).jpeg" alt="Hojas frescas de hierbabuena listas para la extracción" loading="lazy"><span class="product-number">01</span></span>
+            <span class="product-info"><span class="product-category">FRESCO · HERBAL</span><span class="product-title">Hierbabuena</span><span class="product-base">Base de alcohol <span aria-hidden="true">↗</span></span></span>
+          </button>
+        </article>
+        <article class="product-card" data-base="alcohol" data-product="coco-alcohol">
+          <button class="product-open" type="button" aria-label="Ver detalles del perfume de coco a base de alcohol">
+            <span class="product-image image-coconut"><img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.06 PM (6).jpeg" alt="Preparación de la muestra de coco para el perfume" loading="lazy"><span class="product-number">02</span></span>
+            <span class="product-info"><span class="product-category">SUAVE · CREMOSO</span><span class="product-title">Coco</span><span class="product-base">Base de alcohol <span aria-hidden="true">↗</span></span></span>
+          </button>
+        </article>
+        <article class="product-card" data-base="aceite" data-product="coco-aceite">
+          <button class="product-open" type="button" aria-label="Ver detalles del perfume de coco a base de aceite">
+            <span class="product-image image-coconut-oil"><img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.06 PM (1).jpeg" alt="Muestras de coco macerándose en el laboratorio" loading="lazy"><span class="product-number">03</span></span>
+            <span class="product-info"><span class="product-category">CÁLIDO · ENVOLVENTE</span><span class="product-title">Coco</span><span class="product-base">Base de aceite <span aria-hidden="true">↗</span></span></span>
+          </button>
+        </article>
+        <article class="product-card" data-base="alcohol" data-product="naranja">
+          <button class="product-open" type="button" aria-label="Ver detalles del perfume de naranja a base de alcohol">
+            <span class="product-image image-orange"><img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.08 PM.jpeg" alt="Naranja fresca, materia prima del perfume cítrico" loading="lazy"><span class="product-number">04</span></span>
+            <span class="product-info"><span class="product-category">CÍTRICO · LUMINOSO</span><span class="product-title">Naranja</span><span class="product-base">Base de alcohol <span aria-hidden="true">↗</span></span></span>
+          </button>
+        </article>
+      </div>
+      <p class="collection-footnote"><span aria-hidden="true">✳</span> El aroma final depende de la materia prima, el tiempo de maceración y la concentración. Los perfiles aquí descritos son orientativos.</p>
+    </section>
+
+    <section class="process section-pad" id="proceso">
+      <div class="process-image">
+        <img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.05 PM (3).jpeg" alt="Filtrado manual de una preparación aromática en el laboratorio" loading="lazy">
+        <span class="photo-label">DEL INGREDIENTE AL AROMA <span>02 / 04</span></span>
+      </div>
+      <div class="process-copy">
+        <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Detrás de cada esencia</p>
+        <h2>¿Cómo capturamos<br>un <em>aroma?</em></h2>
+        <p>En este proyecto exploramos la <strong>maceración</strong>: dejamos que el solvente entre en contacto con el material aromático para extraer parte de sus moléculas olorosas.</p>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Preparamos</h3><p>Lavamos y troceamos la materia prima para exponer más superficie. Usamos hojas de hierbabuena, coco y cáscara de naranja.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Maceramos</h3><p>Cubrimos el material con el vehículo elegido: alcohol para tres muestras y aceite para la segunda muestra de coco. El solvente puede disolver diferentes componentes aromáticos.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Separamos y observamos</h3><p>Filtramos los sólidos y comparamos color y olor. La maceración produce un extracto artesanal: no equivale necesariamente a un aceite esencial puro ni a un perfume comercial estandarizado.</p></div></div>
+        </div>
+        <div class="science-note"><span aria-hidden="true">i</span><p><strong>¿Por qué dos bases?</strong> El etanol y los aceites tienen propiedades distintas. El vehículo influye en qué sustancias se disuelven y en cómo se evapora y percibe el aroma.</p></div>
+        <p class="safety-note"><strong>Uso responsable:</strong> el alcohol es inflamable. No ingerir los extractos ni aplicarlos directamente sobre la piel; pueden causar irritación o alergia. Mantener fuera del alcance de niños.</p>
+      </div>
+    </section>
+
+    <section class="science section-pad" id="ciencia">
+      <div class="section-heading science-heading">
+        <div><p class="eyebrow"><span class="eyebrow-line"></span> De la molécula a la sensación</p><h2>Un aroma es<br>química <em>en el aire.</em></h2></div>
+        <p class="section-aside">No existe una sola molécula que defina por completo estos ingredientes. Sus aromas son mezclas complejas; aquí exploramos algunos compuestos representativos.</p>
+      </div>
+      <div class="science-tabs" role="tablist" aria-label="Temas de ciencia del aroma">
+        <button class="science-tab is-active" id="tab-compuestos" type="button" role="tab" aria-selected="true" aria-controls="panel-compuestos" data-panel="compuestos"><span>01</span> Compuestos</button>
+        <button class="science-tab" id="tab-formulas" type="button" role="tab" aria-selected="false" aria-controls="panel-formulas" data-panel="formulas" tabindex="-1"><span>02</span> Fórmulas químicas</button>
+        <button class="science-tab" id="tab-celulas" type="button" role="tab" aria-selected="false" aria-controls="panel-celulas" data-panel="celulas" tabindex="-1"><span>03</span> ¿Qué pasa en las células?</button>
+        <button class="science-tab" id="tab-grupos" type="button" role="tab" aria-selected="false" aria-controls="panel-grupos" data-panel="grupos" tabindex="-1"><span>04</span> Grupos funcionales</button>
+      </div>
+      <div class="tab-panels">
+        <div class="science-panel is-active" id="panel-compuestos" role="tabpanel" aria-labelledby="tab-compuestos">
+          <div class="panel-intro"><span class="panel-index">01 / MOLÉCULAS AROMÁTICAS</span><h3>Una sinfonía<br>de compuestos.</h3><p>La nariz reconoce mezclas. Estas moléculas se encuentran en distintas plantas aromáticas y ayudan a explicar algunas notas características; su presencia y proporción varían según la especie y el método de extracción.</p></div>
+          <div class="molecule-list">
+            <article class="molecule-card"><span class="molecule-symbol">OH</span><div><h4>Mentol</h4><p>Fresco, herbal y reconocible en algunas mentas. También activa receptores de sensación de frío en la piel.</p><span class="formula">C<sub>10</sub>H<sub>20</sub>O</span></div></article>
+            <article class="molecule-card"><span class="molecule-symbol">O</span><div><h4>Carvona</h4><p>Una cetona presente en la hierbabuena (spearmint) que aporta una nota verde y dulce.</p><span class="formula">C<sub>10</sub>H<sub>14</sub>O</span></div></article>
+            <article class="molecule-card"><span class="molecule-symbol">C₉</span><div><h4>Limoneno</h4><p>Terpeno abundante en la cáscara de cítricos. Se asocia con notas frescas y cítricas.</p><span class="formula">C<sub>10</sub>H<sub>16</sub></span></div></article>
+            <article class="molecule-card"><span class="molecule-symbol">◌O</span><div><h4>Lactonas</h4><p>Compuestos como la γ-nonalactona pueden aportar matices cremosos, frutales o similares al coco.</p><span class="formula">γ-nonalactona · C<sub>9</sub>H<sub>16</sub>O<sub>2</sub></span></div></article>
+          </div>
+        </div>
+        <div class="science-panel" id="panel-formulas" role="tabpanel" aria-labelledby="tab-formulas" hidden>
+          <div class="panel-intro"><span class="panel-index">02 / FÓRMULAS QUÍMICAS</span><h3>La identidad<br>de cada molécula.</h3><p>Una fórmula molecular cuenta los átomos, pero no muestra cómo están conectados. La estructura y la forma tridimensional también influyen en las propiedades y el olor.</p></div>
+          <div class="formula-feature">
+            <div class="formula-orbit" aria-hidden="true"><span>O</span><i></i><b></b><small></small></div>
+            <div class="formula-details"><p class="eyebrow">EJEMPLOS REPRESENTATIVOS</p><div class="formula-row"><span>Limoneno <small>naranja / cítricos</small></span><strong>C<sub>10</sub>H<sub>16</sub></strong></div><div class="formula-row"><span>Mentol <small>menta</small></span><strong>C<sub>10</sub>H<sub>20</sub>O</strong></div><div class="formula-row"><span>Carvona <small>hierbabuena</small></span><strong>C<sub>10</sub>H<sub>14</sub>O</strong></div><div class="formula-row"><span>γ-nonalactona <small>nota cremosa / coco</small></span><strong>C<sub>9</sub>H<sub>16</sub>O<sub>2</sub></strong></div><p class="formula-caveat">Las fórmulas corresponden a moléculas concretas, no a la composición exacta de nuestros extractos. No se midió su concentración en el proyecto.</p></div>
+          </div>
+        </div>
+        <div class="science-panel" id="panel-celulas" role="tabpanel" aria-labelledby="tab-celulas" hidden>
+          <div class="panel-intro"><span class="panel-index">03 / BIOLOGÍA DEL OLFATO</span><h3>El viaje de una<br>molécula olorosa.</h3><p>Para oler, algunas moléculas volátiles llegan a la nariz y activan neuronas sensoriales. El cerebro interpreta el patrón de señales como un olor.</p></div>
+          <div class="cell-steps">
+            <article><span class="cell-number">01</span><span class="cell-icon" aria-hidden="true">〰</span><h4>Se libera</h4><p>Moléculas volátiles pasan del perfume al aire y llegan al epitelio olfativo, en la parte superior de la nariz.</p></article>
+            <article><span class="cell-number">02</span><span class="cell-icon" aria-hidden="true">⌘</span><h4>Se reconoce</h4><p>Una molécula puede unirse a receptores olfativos en los cilios de una neurona sensorial. Distintos receptores responden a distintos rasgos.</p></article>
+            <article><span class="cell-number">03</span><span class="cell-icon" aria-hidden="true">↯</span><h4>Señal eléctrica</h4><p>El receptor activa una cascada celular —proteína G, AMPc y canales iónicos— que cambia la actividad eléctrica de la neurona.</p></article>
+            <article><span class="cell-number">04</span><span class="cell-icon" aria-hidden="true">✳</span><h4>El cerebro interpreta</h4><p>Las señales viajan al bulbo olfatorio y a otras regiones cerebrales. El patrón combinado se percibe como una experiencia aromática.</p></article>
+          </div>
+          <p class="cell-footnote">La sensación de frescor del mentol al tocar la piel tiene además otra vía: puede activar el receptor TRPM8, relacionado con la detección del frío.</p>
+        </div>
+        <div class="science-panel" id="panel-grupos" role="tabpanel" aria-labelledby="tab-grupos" hidden>
+          <div class="panel-intro"><span class="panel-index">04 / ESTRUCTURA MOLECULAR</span><h3>Los grupos<br>que dan carácter.</h3><p>Los grupos funcionales son conjuntos de átomos que ayudan a determinar cómo se comporta una molécula: su polaridad, reactividad y afinidad por distintos medios.</p></div>
+          <div class="functional-table">
+            <div class="functional-row functional-head"><span>GRUPO</span><span>ESTRUCTURA</span><span>EJEMPLO</span><span>PISTA QUÍMICA</span></div>
+            <div class="functional-row"><span data-label="GRUPO">Alcohol</span><span class="chem-structure" data-label="ESTRUCTURA">R — OH</span><span data-label="EJEMPLO">Mentol</span><span data-label="PISTA QUÍMICA">Grupo hidroxilo; puede formar puentes de hidrógeno.</span></div>
+            <div class="functional-row"><span data-label="GRUPO">Cetona</span><span class="chem-structure" data-label="ESTRUCTURA">R — C(=O) — R′</span><span data-label="EJEMPLO">Carvona</span><span data-label="PISTA QUÍMICA">Grupo carbonilo entre dos carbonos.</span></div>
+            <div class="functional-row"><span data-label="GRUPO">Alqueno</span><span class="chem-structure" data-label="ESTRUCTURA">C = C</span><span data-label="EJEMPLO">Limoneno</span><span data-label="PISTA QUÍMICA">Enlace doble carbono-carbono; típico de muchos terpenos.</span></div>
+            <div class="functional-row"><span data-label="GRUPO">Éster cíclico<br><small>(lactona)</small></span><span class="chem-structure" data-label="ESTRUCTURA">— C(=O) — O —</span><span data-label="EJEMPLO">γ-nonalactona</span><span data-label="PISTA QUÍMICA">Éster integrado en un anillo; aparece en notas frutales y cremosas.</span></div>
+          </div>
+          <p class="cell-footnote">R y R′ representan el resto de la molécula. Una nota aromática no se explica solo por un grupo funcional: también importan la forma, la mezcla y la concentración.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="field-notes section-pad">
+      <div class="field-image"><img src="Imagenes_pagina/WhatsApp Image 2026-10-30 at 9.30.07 PM (5).jpeg" alt="Hojas de hierbabuena preparadas en un recipiente para su maceración" loading="lazy"><span>OBSERVAR · EXTRAER · APRENDER</span></div>
+      <div class="field-copy"><p class="eyebrow"><span class="eyebrow-line"></span> Ciencia hecha con las manos</p><h2>La curiosidad<br>es el <em>ingrediente.</em></h2><p>Este proyecto convierte ingredientes cotidianos en una oportunidad para observar, comparar y preguntar. ¿Cambiará el resultado si usamos otro solvente? ¿Y si dejamos macerar por más tiempo?</p><a class="text-link" href="#explora">Sigue explorando <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="explore section-pad" id="explora">
+      <div class="explore-top"><p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Tu laboratorio empieza aquí</p><span class="explore-index">04 INGREDIENTES · INFINITAS PREGUNTAS</span></div>
+      <h2>¿A qué huele<br>la <em>curiosidad?</em></h2>
+      <div class="explore-bottom"><p>Elige un perfume de la colección para descubrir más sobre su materia prima, su base y las moléculas que podrían estar detrás de su aroma.</p><a class="button button-light" href="#coleccion">Volver a la colección <span aria-hidden="true">↑</span></a></div>
+      <span class="explore-decoration" aria-hidden="true">e</span>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">e<span>·</span></span><span>esencia<span class="brand-light"> viva</span></span></a>
+    <p>Hecho con curiosidad, naturaleza y un poco de química.</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <dialog class="product-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Cerrar detalles">×</button>
+    <p class="eyebrow"><span class="eyebrow-line"></span> PERFUME ARTESANAL</p>
+    <h2 id="dialog-title"></h2>
+    <p class="dialog-base"></p>
+    <p class="dialog-description"></p>
+    <div class="dialog-science"><span>EN EL LABORATORIO</span><p></p></div>
+    <p class="dialog-note">El perfil es orientativo: el extracto no ha sido analizado para confirmar ni cuantificar moléculas específicas.</p>
+  </dialog>
+</body>
+</html>
